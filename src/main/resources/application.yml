@@ -1,0 +1,7 @@
+app:
+  endpoint:
+    api: /api
+    processOrder: ${app.endpoint.api}/processOrder
+spring:
+  application:
+    name: order-service
